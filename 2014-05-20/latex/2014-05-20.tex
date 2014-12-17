@@ -1,0 +1,95 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[swedish]{babel}
+\usepackage{setspace}
+\usepackage{booktabs}
+\usepackage{hyperref}                                   % Vi tycker om hyperreferenser.
+\usepackage{fancyhdr}
+
+\renewcommand{\baselinestretch}{1.4} % 1.4 PUNKTERS RADAVSTÅND
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\bfseries\thepage}
+\fancyfoot[R]{\begin{flushright}\makebox[2in]{\hrulefill}\end{flushright} Mötesordförande: Timmy Larsson \begin{flushright}\makebox[2in]{\hrulefill}\end{flushright} Mötessekreterare: Andreas Söderlund}
+\fancyfoot[L]{\begin{flushleft}\makebox[2in]{\hrulefill}\end{flushleft} Justerare: Dan Persson\begin{flushleft}\makebox[2in]{\hrulefill}\end{flushleft} Justerare: Wilhelm Dahl}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\headheight}{0pt}
+\fancypagestyle{plain}{
+    \fancyhead{} % get rid of headers on plain pages
+    \renewcommand{\headrulewidth}{0pt} % and the line
+}
+
+\hypersetup{
+  pdfborder={0 0 0},         % Ingen "ram".
+  pdftitle={Mötesprotokoll}, % Titlen.
+  pdfauthor={Timmy Larsson}, % Författaren.
+  colorlinks=false,          % false: boxed links; true: colored links
+  linkcolor=red,             % color of internal links
+  citecolor=green,           % color of links to bibliography
+  filecolor=magenta,         % color of file links
+  urlcolor=cyan              % color of external links
+}
+
+
+
+%\textwidth=6.5in        %
+%\textheight=9.0in       %
+%\headsep=0.25in         %
+
+
+\title{\vspace{-1.5in}\textmd{\textbf{Mötesprotokoll Styrelsemöte Piratpartiet Lund}}}
+\date{2014-05-20}
+\author{}
+
+
+\begin{document}
+\maketitle
+
+\section{Mötets Öppnande}
+Timmy Larsson förklarade mötet öppnat kl 18:10.
+
+\section{Fastställande av röstlängd}
+Röstlängden fastställdes till:
+\begin{enumerate}
+\item Dan Persson
+\item David Boholm
+\item Wilhelm Dahl
+\item Jan-Erik Malmqvist
+\item Andreas Söderlund
+\item Timmy Larsson
+\end{enumerate}
+
+\section{Fastställande av dagordning}
+Mötet beslutade att fastställa dagordningen som i kallelsen
+
+\section{Mötets beslutsmässighet}
+Då kallelsen skickats ut tre dagar i förväg ansåg sig mötet behörigt kallat.
+
+\newpage
+
+\section{Val av mötesordförande}
+Timmy Larsson föreslog sig själv till mötesordförande.\\
+Mötet beslutade att välja Timmy Larsson till mötesordförande.
+
+\section{Val av mötessekreterare}
+Timmy Larsson föreslog Andreas Söderlund till mötessekreterare.\\
+Mötet beslutade att välja Andreas Söderlund till mötessekreterare
+
+\section{Val av två personer att justera protokollet}
+Timmy Larsson nominerade Dan Persson och Wilhelm Dahl till justerare.\\
+Mötet beslutade att välja Dan Persson och Wilhelm Dahl till justerare.
+
+\section{Fråga om valvaka}
+timmy yrkar på att försöka byta ut vegetariska filodegsknyten mot fishcakes.\\
+mötet biföll yrkandet.
+
+\section{Övriga frågor}
+Mötet beslutade att affischera i Lund varje dag fram tills valet.
+
+\section{Mötets avslutande}
+Timmy Larsson förklarade mötet för avslutat kl 18:46.
+
+\end{document}

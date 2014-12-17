@@ -1,0 +1,103 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage[swedish]{babel}
+\usepackage{setspace}
+\usepackage{booktabs}
+\usepackage{hyperref}                                   % Vi tycker om hyperreferenser.
+\usepackage{fancyhdr}
+
+\renewcommand{\baselinestretch}{1.4} % 1.4 PUNKTERS RADAVSTÅND
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\bfseries\thepage}
+\fancyfoot[R]{\begin{flushright}\makebox[2in]{\hrulefill}\end{flushright} Mötesordförande: Timmy Larsson \begin{flushright}\makebox[2in]{\hrulefill}\end{flushright} Mötessekreterare: Andreas Söderlund}
+\fancyfoot[L]{\begin{flushleft}\makebox[2in]{\hrulefill}\end{flushleft} Justerare: Dan Persson\begin{flushleft}\makebox[2in]{\hrulefill}\end{flushleft} Justerare: Wilhelm Dahl}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\headheight}{0pt}
+\fancypagestyle{plain}{
+    \fancyhead{} % get rid of headers on plain pages
+    \renewcommand{\headrulewidth}{0pt} % and the line
+}
+
+\hypersetup{
+  pdfborder={0 0 0},         % Ingen "ram".
+  pdftitle={Mötesprotokoll}, % Titlen.
+  pdfauthor={Timmy Larsson}, % Författaren.
+  colorlinks=false,          % false: boxed links; true: colored links
+  linkcolor=red,             % color of internal links
+  citecolor=green,           % color of links to bibliography
+  filecolor=magenta,         % color of file links
+  urlcolor=cyan              % color of external links
+}
+
+
+
+%\textwidth=6.5in        %
+%\textheight=9.0in       %
+%\headsep=0.25in         %
+
+
+\title{\vspace{-1.5in}\textmd{\textbf{Mötesprotokoll Styrelsemöte Piratpartiet Lund}}}
+\date{2014-12-17}
+\author{}
+
+
+\begin{document}
+\maketitle
+
+\section{Mötets Öppnande}
+Timmy Larsson förklarade mötet öppnat kl 16:00.
+
+\section{Fastställande av röstlängd}
+Röstlängden fastställdes till:
+\begin{enumerate}
+\item Dan Persson
+\item Wilhelm Dahl
+\item Jan-Erik Malmqvist
+\item Andreas Söderlund
+\item Timmy Larsson
+\end{enumerate}
+
+\section{Mötets beslutsmässighet}
+Mötet ansåg att de hade beslutsmässighet.
+
+\section{Fastställande av dagordning}
+Mötet beslutade att fastställa dagordningen som i kallelsen
+
+\newpage
+
+\section{Val av mötesordförande}
+Timmy Larsson föreslog sig själv till mötesordförande.\\
+Mötet beslutade att välja Timmy Larsson till mötesordförande.
+
+\section{Val av mötessekreterare}
+Timmy Larsson föreslog Andreas Söderlund till mötessekreterare.\\
+Mötet beslutade att välja Andreas Söderlund till mötessekreterare
+
+\section{Val av två personer att justera protokollet}
+Timmy Larsson nominerade Dan Persson och Wilhelm Dahl till justerare.\\
+Mötet beslutade att välja Dan Persson och Wilhelm Dahl till justerare.
+
+\section{Diskussion kring nyvalet}
+Nyvalet diskuterades. Mötet noterade att det finns ett nytt piratforum 
+\begin{verbatim}
+https://medlem.piratpartiet.se/forum/
+\end{verbatim}
+Mötet beslutade att ansöka om att ha en valstuga i Lund.
+
+\section{Diskussion kring PL:s avgång}
+Partiledningens avgång diskuterades.
+
+\section{Handlingsplan}
+
+
+\section{Övriga frågor}
+Mötet beslutade att kalla till årsmöte lördagen den 31:a januari 2015.
+
+\section{Mötets avslutande}
+Timmy Larsson förklarade mötet för avslutat kl 16:46.
+
+\end{document}
